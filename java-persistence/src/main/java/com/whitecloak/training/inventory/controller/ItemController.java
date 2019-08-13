@@ -23,4 +23,6 @@ public class ItemController {
     public ItemResource createItem(@RequestBody ItemForm form) {
         return itemService.create(form);
     }
+
+    @GetMapping("/api/v1/items/{id}")
 }
