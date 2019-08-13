@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example_item
+    username: kana
+    password: password123
+  jpa:
+    hibernate:
+      ddl-auto: create
