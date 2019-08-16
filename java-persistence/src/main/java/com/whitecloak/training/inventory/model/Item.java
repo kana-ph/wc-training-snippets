@@ -1,32 +1,29 @@
 package com.whitecloak.training.inventory.model;
 
+import com.whitecloak.training.inventory.persistence.entity.CategoryEntity;
+import com.whitecloak.training.inventory.persistence.entity.UserEntity;
+
 public class Item {
 
     private Long id;
     private String name;
-    private Long ownerId;
+    private UserEntity owner;
+    private CategoryEntity category;
+    private String status;
 
-    public Long getId() {
-        return id;
-    }
+    public UserEntity getOwner() { return owner; }
+    public void setOwner(UserEntity owner) { this.owner = owner; }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+    public CategoryEntity getCategory() { return category; }
+    public void setCategory(CategoryEntity category) { this.category = category; }
 
-    public String getName() {
-        return name;
-    }
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
-    public Long getOwnerId() {
-        return ownerId;
-    }
 
-    public void setOwnerId(Long ownerId) {
-        this.ownerId = ownerId;
-    }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 }
