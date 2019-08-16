@@ -34,11 +34,6 @@ public class ItemController {
     public ItemResource getItems(@PathVariable("id") Long id) {
 
 
-//        if(itemService.getUser(id)!=null){
-//            return itemService.getUser(id);
-//        }else {
-//            throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"ID is not valid!");
-//        }
 
         try {
             return itemService.getUser(id);
@@ -55,10 +50,6 @@ public class ItemController {
         itemService.delete(id);
     }
 
-//    @GetMapping("/api/v1/items")
-//    public Page<ItemResource> itemsPageable(Pageable pageable){
-//        return itemService.findAll(pageable);
-//    }
 
 
     @GetMapping("/api/v1/items")
