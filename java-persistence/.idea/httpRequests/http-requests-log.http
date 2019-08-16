@@ -1,12 +1,14 @@
-POST http://localhost:8080/api/v1/items
+GET http://localhost:8080/api/v1/items/2
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "erasyer"
+  "name": "Rock",
+  "ownerId": 1,
+  "categoryId": 3
 }
 
-<> 2019-08-13T025817.200.json
+<> 2019-08-16T013044.400.json
 
 ###
 
@@ -15,10 +17,24 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Rock",
+  "ownerId": 1,
+  "categoryId": 3
 }
 
-<> 2019-08-13T025613.200.json
+<> 2019-08-16T125945.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Music"
+}
+
+<> 2019-08-16T125740.200.json
 
 ###
 
@@ -27,8 +43,12 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Upo",
+  "ownerId": 1,
+  "categoryId": 2
 }
+
+<> 2019-08-16T125718.200.json
 
 ###
 
@@ -37,10 +57,604 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Patatas",
+  "ownerId": 1,
+  "categoryId": 2
 }
 
-<> 2019-08-13T025402.500.json
+<> 2019-08-16T125638.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Patatas",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-16T125057.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Patatas",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-16T125036.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Patatas",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-16T124725.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Vegetables"
+}
+
+<> 2019-08-16T124709.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Fruits"
+}
+
+<> 2019-08-16T124706.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jo"
+}
+
+<> 2019-08-16T124657.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "ALbert"
+}
+
+<> 2019-08-16T124653.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T110101.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103732.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103629.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103618.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103608.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=1&size=2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103537.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102813.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102739.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102640.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102412.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102354.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T100827.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "orange",
+  "ownerId": 4,
+  "categoryId": 1
+}
+
+<> 2019-08-16T100759.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "apple",
+  "ownerId": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T100747.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jo"
+}
+
+<> 2019-08-16T100326.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "GAb"
+}
+
+<> 2019-08-16T100318.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064750.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "vegetables"
+}
+
+<> 2019-08-15T064738.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fruits"
+}
+
+<> 2019-08-15T064735.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "gabo"
+}
+
+<> 2019-08-15T064729.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "gab"
+}
+
+<> 2019-08-15T064725.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064646.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064510.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064458.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064409.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Vegetables"
+}
+
+<> 2019-08-15T064400.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Fruits"
+}
+
+<> 2019-08-15T064356.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "GAbooooo"
+}
+
+<> 2019-08-15T064350.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Gabb"
+}
+
+<> 2019-08-15T064346.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Potato",
+  "ownerId": 1,
+  "categoryId": 2
+}
+
+<> 2019-08-15T064221.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Vegetables"
+}
+
+<> 2019-08-15T064205.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Fruits"
+}
+
+<> 2019-08-15T064202.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jo"
+}
+
+<> 2019-08-15T064153.200.json
+
+###
+
+POST http://localhost:8080/api/v1/user
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Gab"
+}
+
+<> 2019-08-15T064150.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "skating",
+  "ownerId": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-15T064127.500.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "skating",
+  "ownerId": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-15T021651.400.json
+
+###
+
+GET http://localhost:8080/api/v1/items/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "skating",
+  "ownerId": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-15T021648.200.json
 
 ###
 
