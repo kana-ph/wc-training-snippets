@@ -31,4 +31,9 @@ class ItemGatewayImpl implements ItemGateway {
         item.setOwnerId(savedEntity.getOwnerId());
         return item;
     }
+
+    @Override
+    public ItemEntity findBy(Long id) {
+        return null;
+    }
 }
