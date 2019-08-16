@@ -12,8 +12,16 @@ public class ItemEntity {
     @Column
     private String name;
 
-    @Column
+    @ManyToOne
+    @JoinColumn
     private UserEntity owner;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn
+    private CategoryEntity category;
+
+    @Column
+    private String status;
 
     public Long getId() {
         return id;
@@ -31,11 +39,27 @@ public class ItemEntity {
         this.name = name;
     }
 
-    public UserEntity getOwner() {
+    public UserEntity getOwnerId() {
         return owner;
     }
 
-    public void setOwner(UserEntity owner) {
+    public void setOwnerId(UserEntity owner) {
         this.owner = owner;
+    }
+
+    public CategoryEntity getCategory() {
+        return category;
+    }
+
+    public void setCategory(CategoryEntity category) {
+        this.category = category;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

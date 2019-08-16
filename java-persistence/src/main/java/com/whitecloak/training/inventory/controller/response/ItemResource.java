@@ -4,7 +4,8 @@ public class ItemResource {
 
     private long id;
     private String name;
-    private long ownerId;
+    private Long ownerId;
+    private Long categoryId;
 
     public long getId() {
         return id;
@@ -22,11 +23,19 @@ public class ItemResource {
         this.name = name;
     }
 
-    public long getOwnerId() {
+    public Long getOwnerId() {
         return ownerId;
     }
 
-    public void setOwnerId(long ownerId) {
+    public void setOwnerId(Long ownerId) {
         this.ownerId = ownerId;
+    }
+
+    public Long getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
     }
 }
