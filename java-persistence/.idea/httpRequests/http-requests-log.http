@@ -1,12 +1,54 @@
-POST http://localhost:8080/api/v1/items
+GET http://localhost:8080/api/v1/items/1
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "erasyer"
+  "name": "d",
+  "id": 1,
+  "categoryId": 1
 }
 
-<> 2019-08-13T025817.200.json
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "d",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T051038.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "d",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T051011.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "d",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T050955.200.json
 
 ###
 
@@ -15,10 +57,36 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "d",
+  "id": 1,
+  "categoryId": 1
 }
 
-<> 2019-08-13T025613.200.json
+<> 2019-08-16T050938.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "ewan"
+}
+
+<> 2019-08-16T050926.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "gg"
+}
+
+<> 2019-08-16T050917.200.json
 
 ###
 
@@ -27,8 +95,36 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "ballpen",
+  "id": 1,
+  "categoryId": 1
 }
+
+<> 2019-08-16T050538.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "ballpen"
+}
+
+<> 2019-08-16T050506.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-16T050447.200.json
 
 ###
 
@@ -37,10 +133,530 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "AA",
+  "id": 1,
+  "categoryId": 1
 }
 
-<> 2019-08-13T025402.500.json
+<> 2019-08-16T050341.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T050117.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T050058.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA"
+}
+
+<> 2019-08-16T050037.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T043222.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA"
+}
+
+<> 2019-08-16T043141.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "AA",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T042912.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T040147.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T040022.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T035211.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T015457.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T012719.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T124405.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T124058.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=1&size=2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T124041.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T124017.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T123956.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T115340.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T114845.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T114138.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "bag",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T114109.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "laptop",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T112711.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "laptop",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T112650.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T110429.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T110400.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T103302.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102700.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-16T102645.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/items/3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen",
+  "id": 1,
+  "categoryId": 1
+}
 
 ###
 
