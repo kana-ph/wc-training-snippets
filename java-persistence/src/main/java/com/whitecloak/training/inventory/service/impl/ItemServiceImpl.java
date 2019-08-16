@@ -1,6 +1,8 @@
 package com.whitecloak.training.inventory.service.impl;
 
+import com.whitecloak.training.inventory.controller.request.CategoryForm;
 import com.whitecloak.training.inventory.controller.request.ItemForm;
+import com.whitecloak.training.inventory.controller.request.UserForm;
 import com.whitecloak.training.inventory.controller.response.ItemResource;
 import com.whitecloak.training.inventory.gateway.ItemGateway;
 import com.whitecloak.training.inventory.model.Item;
@@ -19,13 +21,13 @@ class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public ItemResource create(ItemForm form) {
-        Item item = itemGateway.create(form.getName());
+    public ItemResource create(ItemForm itemForm, UserForm userForm, CategoryForm categoryForm) {
+        Item item = itemGateway.create(itemForm.getName(), userForm.getName(), categoryForm.getName());
 
         ItemResource itemResource = new ItemResource();
         itemResource.setId(item.getId());
         itemResource.setName(item.getName());
-        itemResource.setOwnerId(item.getOwnerId());
+        itemResource.setOwnerId(item.getOwner().getId());
         return itemResource;
     }
 }
