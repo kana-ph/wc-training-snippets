@@ -1,9 +1,12 @@
 package com.whitecloak.training.inventory.persistence.entity;
 
+import com.whitecloak.training.inventory.model.Item;
+
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
-public class ItemEntity {
+public class CategoryEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,13 +15,8 @@ public class ItemEntity {
     @Column
     private String name;
 
-    @ManyToOne
-    @JoinColumn
-    private UserEntity owner;
-
-    @ManyToOne
-    @JoinColumn
-    private CategoryEntity category;
+    //@Column
+    //private Set<Item> items;
 
     public Long getId() {
         return id;
@@ -36,17 +34,7 @@ public class ItemEntity {
         this.name = name;
     }
 
-    public UserEntity getOwner() { return owner; }
+    //public Set<Item> getItems() { return items; }
 
-    public void setOwner(UserEntity owner) {
-        this.owner = owner;
-    }
-
-    public CategoryEntity getCategory() {
-        return category;
-    }
-
-    public void setCategory(CategoryEntity category) {
-        this.category = category;
-    }
+    //public void setItems(Set<Item> items) { this.items = items; }
 }

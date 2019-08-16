@@ -5,5 +5,5 @@ import com.whitecloak.training.inventory.controller.response.ItemResource;
 
 public interface ItemService {
 
-    ItemResource create(ItemForm form);
+    ItemResource createItem(ItemForm itemForm);
 }

@@ -19,8 +19,8 @@ class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public ItemResource create(ItemForm form) {
-        Item item = itemGateway.create(form.getName());
+    public ItemResource createItem(ItemForm itemForm) {
+        Item item = itemGateway.createItem(itemForm);
 
         ItemResource itemResource = new ItemResource();
         itemResource.setId(item.getId());
