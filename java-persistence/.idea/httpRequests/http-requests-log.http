@@ -1,12 +1,46 @@
-POST http://localhost:8080/api/v1/items
+DELETE http://localhost:8080/api/v1/items/1
 Content-Type: application/json
 Accept: application/json
 
-{
-  "name": "erasyer"
-}
+<> 2019-08-16T124403.404.json
 
-<> 2019-08-13T025817.200.json
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=2
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124400.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?category=featurephones
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124358.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124356.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124354.200.json
 
 ###
 
@@ -15,10 +49,96 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Asus ZenBook",
+  "categoryId": 1,
+  "ownerId": 1
 }
 
-<> 2019-08-13T025613.200.json
+<> 2019-08-16T124352.201.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+"name": "Bill Gates"
+}
+
+<> 2019-08-16T124350.201.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "watches"
+}
+
+<> 2019-08-16T124348.201.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124233.404.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124228.404.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=0&size=2
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124223.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?category=featurephones
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124217.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124214.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T124211.200.json
 
 ###
 
@@ -27,8 +147,12 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Asus ZenBook",
+  "categoryId": 1,
+  "ownerId": 1
 }
+
+<> 2019-08-16T124206.201.json
 
 ###
 
@@ -37,10 +161,380 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "name": "Asus ZenBook"
 }
 
-<> 2019-08-13T025402.500.json
+<> 2019-08-16T124141.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Asus ZenBook",
+}
+
+<> 2019-08-16T124134.400.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+"name": "Bill Gates"
+}
+
+<> 2019-08-16T124131.201.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "watches"
+}
+
+<> 2019-08-16T124127.201.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T123242.404.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###
+
+DELETE http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T123229.405.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T123151.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+<> 2019-08-16T123104.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Bill Gates"
+}
+
+<> 2019-08-16T122932.201.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "watches"
+}
+
+<> 2019-08-16T122849.201.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Ogag"
+}
+
+<> 2019-08-16T113707.500.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Ogag"
+}
+
+<> 2019-08-16T111144.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "gameconsole"
+}
+
+<> 2019-08-16T111118.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "gameconsole"
+}
+
+<> 2019-08-16T111112.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "consoles"
+}
+
+<> 2019-08-16T111054.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "consoles"
+}
+
+<> 2019-08-16T111022.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "consoles"
+}
+
+<> 2019-08-16T110959.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T041512.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T041451.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T041422.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T041400.500.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Accessories"
+}
+
+<> 2019-08-14T041256.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categoires
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Accessories"
+}
+
+<> 2019-08-14T041250.404.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jonathan Francisco"
+}
+
+<> 2019-08-14T041237.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Jonathan Francisco",
+}
+
+<> 2019-08-14T041229.400.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040641.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040630.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040559.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040530.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040513.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "USB Cable",
+  "category_id": 1,
+  "owner_id": 1
+}
+
+<> 2019-08-14T040158.500.json
 
 ###
 

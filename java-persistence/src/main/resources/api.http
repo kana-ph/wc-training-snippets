@@ -1,0 +1,62 @@
+// CREATE CATEGORY
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "watches"
+}
+
+###
+// CREATE USER
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+"name": "Bill Gates"
+}
+
+###
+// CREATE ITEM
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Asus ZenBook",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+###
+// GET ITEM BY ID
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###
+// GET ALL ITEMS
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+###
+// GET ALL ITEMS BY CATEGORY
+GET http://localhost:8080/api/v1/items?category=featurephones
+Content-Type: application/json
+Accept: application/json
+
+###
+// GET ALL ITEMS BY PAGE OR SIZE
+GET http://localhost:8080/api/v1/items?page=0&size=2
+Content-Type: application/json
+Accept: application/json
+
+###
+// DELETE ITEM BY ID
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+###

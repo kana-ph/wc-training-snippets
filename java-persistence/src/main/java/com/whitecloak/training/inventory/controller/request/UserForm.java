@@ -2,8 +2,10 @@ package com.whitecloak.training.inventory.controller.request;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
+import javax.persistence.*;
+
 @JsonDeserialize
-public class ItemForm {
+public class UserForm {
 
     private String name;
     private Long categoryId;
@@ -32,5 +34,4 @@ public class ItemForm {
     public void setOwnerId(Long ownerId) {
         this.ownerId = ownerId;
     }
-
 }

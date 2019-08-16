@@ -1,23 +1,12 @@
-package com.whitecloak.training.inventory.persistence.entity;
+package com.whitecloak.training.inventory.controller.response;
 
-import javax.persistence.*;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
-@Entity
-public class UserEntity {
+@JsonSerialize
+public class CategoryResource {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
-
-    public UserEntity() {
-
-    }
-
-    public UserEntity(String name) {
-        this.name = name;
-    }
 
     public Long getId() {
         return id;

@@ -4,7 +4,9 @@ public class Item {
 
     private Long id;
     private String name;
-    private Long ownerId;
+    private Category category;
+    private User owner;
+    private boolean isDeleted;
 
     public Long getId() {
         return id;
@@ -22,11 +24,27 @@ public class Item {
         this.name = name;
     }
 
-    public Long getOwnerId() {
-        return ownerId;
+    public Category getCategory() {
+        return category;
     }
 
-    public void setOwnerId(Long ownerId) {
-        this.ownerId = ownerId;
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
+
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
     }
 }

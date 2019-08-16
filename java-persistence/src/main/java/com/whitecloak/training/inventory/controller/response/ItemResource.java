@@ -1,10 +1,16 @@
 package com.whitecloak.training.inventory.controller.response;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.whitecloak.training.inventory.model.Category;
+import com.whitecloak.training.inventory.model.User;
+
+@JsonSerialize
 public class ItemResource {
 
     private long id;
     private String name;
-    private long ownerId;
+    private Category category;
+    private User owner;
 
     public long getId() {
         return id;
@@ -22,11 +28,20 @@ public class ItemResource {
         this.name = name;
     }
 
-    public long getOwnerId() {
-        return ownerId;
+    public Category getCategory() {
+        return category;
     }
 
-    public void setOwnerId(long ownerId) {
-        this.ownerId = ownerId;
+    public void setCategory(Category category) {
+        this.category = category;
     }
+
+    public User getOwner() {
+        return owner;
+    }
+
+    public void setOwner(User owner) {
+        this.owner = owner;
+    }
+
 }
