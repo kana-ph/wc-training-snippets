@@ -3,19 +3,11 @@ package com.whitecloak.training.inventory.controller.request;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 
 @JsonDeserialize
-public class ItemForm {
+public class UserForm {
 
-    private String name;
-    private Long categoryId;
     private Long ownerId;
 
-    public Long getCategoryId() {
-        return categoryId;
-    }
-
-    public void setCategoryId(Long categoryId) {
-        this.categoryId = categoryId;
-    }
+    private String name;
 
     public Long getOwnerId() {
         return ownerId;

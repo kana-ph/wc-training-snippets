@@ -5,6 +5,7 @@ public class Item {
     private Long id;
     private String name;
     private Long ownerId;
+    private Category category;
 
     public Long getId() {
         return id;
@@ -29,4 +30,8 @@ public class Item {
     public void setOwnerId(Long ownerId) {
         this.ownerId = ownerId;
     }
+
+    public Category getCategory() { return category;  }
+
+    public void setCategory(Category category) { this.category = category; }
 }

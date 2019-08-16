@@ -20,9 +20,9 @@ public class ItemController {
     }
 
     @PostMapping("/api/v1/items")
-    public ItemResource createItem(@RequestBody ItemForm form) {
-        return itemService.create(form);
+    public ItemResource createItem(@RequestBody ItemForm itemForm) {
+        return itemService.createItem(itemForm);
     }
 
-    @GetMapping("/api/v1/items/{id}")
+    //@GetMapping("/api/v1/items/{id}")
 }

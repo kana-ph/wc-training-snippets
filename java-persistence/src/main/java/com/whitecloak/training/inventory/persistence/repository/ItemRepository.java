@@ -6,4 +6,5 @@ import org.springframework.data.repository.Repository;
 public interface ItemRepository extends Repository<ItemEntity, Long> {
 
     ItemEntity save(ItemEntity entity);
+    ItemEntity findById(Long id);
 }
