@@ -1,9 +1,10 @@
 package com.whitecloak.training.inventory.persistence.entity;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
-public class UserEntity {
+public class CategoryEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -11,13 +12,16 @@ public class UserEntity {
 
     private String name;
 
-    public UserEntity() {
+    public CategoryEntity() {
 
     }
 
-    public UserEntity(String name) {
+    public CategoryEntity(String name) {
         this.name = name;
     }
+
+    @OneToMany(mappedBy = "category")
+    private Set<ItemEntity> items;
 
     public Long getId() {
         return id;

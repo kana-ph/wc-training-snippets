@@ -9,11 +9,26 @@ public class ItemEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column
     private String name;
 
-    @Column
+    private boolean deleted = false;
+
+
+    @ManyToOne
+    private CategoryEntity category;
+
+    @ManyToOne
     private UserEntity owner;
+
+    public ItemEntity() {
+
+    }
+
+    public ItemEntity(String name, CategoryEntity category, UserEntity owner) {
+        this.name = name;
+        this.category = category;
+        this.owner = owner;
+    }
 
     public Long getId() {
         return id;
@@ -29,6 +44,22 @@ public class ItemEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean getDeleted() {
+        return deleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        this.deleted = deleted;
+    }
+
+    public CategoryEntity getCategory() {
+        return category;
+    }
+
+    public void setCategory(CategoryEntity category) {
+        this.category = category;
     }
 
     public UserEntity getOwner() {

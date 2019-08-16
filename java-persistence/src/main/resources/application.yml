@@ -5,4 +5,4 @@ spring:
     password: password123
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create-drop
