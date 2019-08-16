@@ -3,7 +3,7 @@ package com.whitecloak.training.inventory.persistence.entity;
 import javax.persistence.*;
 
 @Entity
-public class ItemEntity {
+public class CategoryEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,8 +13,7 @@ public class ItemEntity {
     private String name;
 
     @Column
-//    @ManyToOne
-    private Long owner;
+    private String item;
 
     public Long getId() {
         return id;
@@ -32,19 +31,20 @@ public class ItemEntity {
         this.name = name;
     }
 
-//    public Long getOwner() {
-//        return owner;
-//    }
-//
-//    public void setOwner(Long owner) {
-//        this.owner = owner;
-//    }
-
-    public void setOwnerId(Long owner) {
-        this.owner = owner;
+    public String getItem() {
+        return item;
     }
 
-    public Long getOwnerId() {
-        return owner;
+    public void setItem(String item) {
+        this.item = item;
     }
 }
+
+//    public void setOwnerId(long owner) {
+//        this.owner = owner;
+//    }
+//
+//    public Long getOwnerId() {
+//        return owner;
+//    }
+//}
