@@ -3,7 +3,39 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "erasyer"
+  "itemName": "Cellphone",
+  "owner": 1,
+  "category": 1
 }
 
 ###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Jem"
+}
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Unique"
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+
+###
+
+
