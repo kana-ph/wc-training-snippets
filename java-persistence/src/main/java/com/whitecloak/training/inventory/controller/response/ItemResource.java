@@ -1,12 +1,8 @@
 package com.whitecloak.training.inventory.controller.response;
 
-import com.whitecloak.training.inventory.model.Category;
-import com.whitecloak.training.inventory.model.Item;
-import com.whitecloak.training.inventory.model.User;
 import com.whitecloak.training.inventory.persistence.entity.CategoryEntity;
 import com.whitecloak.training.inventory.persistence.entity.UserEntity;
 
-import java.util.List;
 
 public class ItemResource {
 

@@ -32,10 +32,6 @@ public class CategoryEntity {
         this.name = name;
     }
 
-//    public Set<ItemEntity> getItems() {
-//        return items;
-//    }
-
     public void setItems(Set<ItemEntity> items) {
         this.items = items;
     }

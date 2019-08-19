@@ -2,6 +2,7 @@ package com.whitecloak.training.inventory.controller;
 
 import com.whitecloak.training.inventory.controller.request.ItemForm;
 import com.whitecloak.training.inventory.controller.response.ItemResource;
+import com.whitecloak.training.inventory.model.Item;
 import com.whitecloak.training.inventory.persistence.entity.ItemEntity;
 import com.whitecloak.training.inventory.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +29,7 @@ public class ItemController {
     }
 
     @GetMapping("/api/v1/items/{id}")
-    public ItemEntity getItem(@PathVariable("id") Long id){
+    public ItemResource getItem(@PathVariable("id") Long id){
         return itemService.getItem(id);
     }
 
@@ -38,7 +39,7 @@ public class ItemController {
     }
 
     @GetMapping("/api/v1/items")
-    public ItemPaginationResponse<ItemEntity> fetchByPage( Pageable page){
+    public ItemPaginationResponse<ItemEntity> fetchByPage(Pageable page){
         return itemService.findAllByPage(page);
     }
 

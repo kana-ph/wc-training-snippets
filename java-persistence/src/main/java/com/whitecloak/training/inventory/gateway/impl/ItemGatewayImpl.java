@@ -5,20 +5,14 @@ import com.whitecloak.training.inventory.controller.response.ItemPaginationRespo
 import com.whitecloak.training.inventory.gateway.ItemGateway;
 import com.whitecloak.training.inventory.model.Item;
 import com.whitecloak.training.inventory.persistence.entity.ItemEntity;
-import com.whitecloak.training.inventory.persistence.entity.UserEntity;
 import com.whitecloak.training.inventory.persistence.repository.CategoryRepository;
 import com.whitecloak.training.inventory.persistence.repository.ItemPagination;
 import com.whitecloak.training.inventory.persistence.repository.ItemRepository;
 import com.whitecloak.training.inventory.persistence.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 
 @Component 
@@ -66,10 +60,17 @@ class ItemGatewayImpl implements ItemGateway {
     }
 
     @Override
-    public ItemEntity getItem (Long id){
+    public Item getItem (Long id){
         ItemEntity item = itemRepository.findById(id);
+
+        Item items = new Item();
+        items.setId(item.getId());
+        items.setName(item.getName());
+        items.setOwnerId(item.getOwnerId());
+        items.setCategoryId(item.getCategoryId());
+        items.setStatus(item.getStatus());
         if(item.getStatus().equals("Active")){
-            return item;
+            return items;
         }
         else{
             return null;
@@ -78,7 +79,7 @@ class ItemGatewayImpl implements ItemGateway {
 
     @Override
     public ItemPaginationResponse<ItemEntity> showItems(Pageable pageable){
-        pageable = PageRequest.of(0,2);
+       // pageable = PageRequest.of(0,2);
         Page<ItemEntity> result = itemPagination.findAll(pageable);
         return new ItemPaginationResponse<>(result.getContent(),result.getTotalPages(),result.getTotalElements());
     }

@@ -1,9 +1,9 @@
-GET http://localhost:8080/api/v1/items/1
+DELETE http://localhost:8080/api/v1/items/4
 Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "d",
+  "name": "panda",
   "id": 1,
   "categoryId": 1
 }

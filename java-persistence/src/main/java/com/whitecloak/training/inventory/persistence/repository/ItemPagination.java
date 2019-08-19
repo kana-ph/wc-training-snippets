@@ -8,7 +8,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
 
-public interface ItemPagination extends CrudRepository<ItemEntity, Long>, PagingAndSortingRepository <ItemEntity, Long>{
+public interface ItemPagination extends PagingAndSortingRepository <ItemEntity, Long>{
     Page<ItemEntity> findAll(Pageable pageable);
 
 }

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Component
-public class CategoryGatewayImpl implements CategoryGateway {
+class CategoryGatewayImpl implements CategoryGateway {
 
     private final CategoryRepository categoryRepository;
 

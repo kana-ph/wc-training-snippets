@@ -1,3 +1,649 @@
+DELETE http://localhost:8080/api/v1/items/4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "panda",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T025742.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "panda",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T025718.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "panda",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T025711.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024921.500.json
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024914.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024905.500.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024613.500.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024600.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024548.500.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024538.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024520.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T024319.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fibr",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T022201.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T021302.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T021253.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T021110.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T021017.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "g-tech",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T020553.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "g-tech",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T020543.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T020534.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "hbw",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T020508.500.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "hbw",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T020456.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen"
+}
+
+<> 2019-08-19T020432.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T020414.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014408.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014349.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014328.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014320.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "hbw",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014313.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "g-tech",
+  "id": 2,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014254.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen"
+}
+
+<> 2019-08-19T014235.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T014223.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH"
+}
+
+<> 2019-08-19T014210.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T014150.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=2&size=3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013728.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=1&size=3
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013714.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items?page=1&size=2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013630.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013442.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013428.200.json
+
+###
+
+DELETE http://localhost:8080/api/v1/items/2
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013418.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013359.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "G-TECH",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013345.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "HBW",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013334.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "fine-tech",
+  "id": 1,
+  "categoryId": 1
+}
+
+<> 2019-08-19T013220.200.json
+
+###
+
+POST http://localhost:8080/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "pen"
+}
+
+<> 2019-08-19T013155.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "joy"
+}
+
+<> 2019-08-19T013142.200.json
+
+###
+
 GET http://localhost:8080/api/v1/items/1
 Content-Type: application/json
 Accept: application/json
@@ -21,642 +667,6 @@ Accept: application/json
 }
 
 <> 2019-08-16T051038.200.json
-
-###
-
-DELETE http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "d",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T051011.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "d",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050955.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "d",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050938.200.json
-
-###
-
-POST http://localhost:8080/api/v1/categories
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "ewan"
-}
-
-<> 2019-08-16T050926.200.json
-
-###
-
-POST http://localhost:8080/api/v1/users
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "gg"
-}
-
-<> 2019-08-16T050917.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "ballpen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050538.200.json
-
-###
-
-POST http://localhost:8080/api/v1/categories
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "ballpen"
-}
-
-<> 2019-08-16T050506.200.json
-
-###
-
-POST http://localhost:8080/api/v1/users
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "joy"
-}
-
-<> 2019-08-16T050447.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050341.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050117.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T050058.200.json
-
-###
-
-POST http://localhost:8080/api/v1/categories
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA"
-}
-
-<> 2019-08-16T050037.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T043222.200.json
-
-###
-
-POST http://localhost:8080/api/v1/users
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA"
-}
-
-<> 2019-08-16T043141.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "AA",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T042912.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T040147.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T040022.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T035211.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T015457.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T012719.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T124405.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items?page=0&size=3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T124058.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items?page=1&size=2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T124041.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items?page=0&size=2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T124017.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T123956.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T115340.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T114845.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T114138.200.json
-
-###
-
-DELETE http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "bag",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T114109.200.json
-
-###
-
-DELETE http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "laptop",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T112711.200.json
-
-###
-
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "laptop",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T112650.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/4
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T110429.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T110400.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-DELETE http://localhost:8080/api/v1/items/2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T103302.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/2
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T102700.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-GET http://localhost:8080/api/v1/items/1
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-<> 2019-08-16T102645.200.json
-
-###
-
-GET http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-DELETE http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-DELETE http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
-
-###
-
-DELETE http://localhost:8080/api/v1/items/3
-Content-Type: application/json
-Accept: application/json
-
-{
-  "name": "pen",
-  "id": 1,
-  "categoryId": 1
-}
 
 ###
 

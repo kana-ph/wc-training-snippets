@@ -1,8 +1,5 @@
 package com.whitecloak.training.inventory.controller.response;
 
-import com.whitecloak.training.inventory.model.Item;
-import com.whitecloak.training.inventory.persistence.entity.ItemEntity;
-import org.springframework.data.domain.Page;
 
 import java.util.List;
 
@@ -19,10 +16,7 @@ public class ItemPaginationResponse<ItemEntity> {
         this.totalPage = totalPage;
         this.totalItem = totalItem;
     }
-//
-//
-//    public ItemPaginationResponse(ItemEntity list) {
-//    }
+
 
     public List<ItemEntity> getItems() {
         return items;

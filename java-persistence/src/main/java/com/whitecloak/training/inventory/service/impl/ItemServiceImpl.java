@@ -42,9 +42,16 @@ class  ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public ItemEntity getItem(Long id){
-        ItemEntity item = itemGateway.getItem(id);
-        return item;
+    public ItemResource getItem(Long id){
+        Item item = itemGateway.getItem(id);
+
+        ItemResource resource = new ItemResource();
+        resource.setId(item.getId());
+        resource.setName(item.getName());
+        resource.setOwnerId(item.getOwnerId());
+        resource.setCategoryId(item.getCategoryId());
+        resource.setStatus(item.getStatus());
+        return resource;
     }
 
 
