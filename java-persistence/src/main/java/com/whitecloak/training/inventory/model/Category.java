@@ -1,17 +1,11 @@
-package com.whitecloak.training.inventory.persistence.entity;
+package com.whitecloak.training.inventory.model;
 
-import javax.persistence.*;
+import java.util.Set;
 
-@Entity
-public class UserEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class Category {
     private Long id;
-
-    @Column
     private String name;
-
+    private Set<Item> items;
 
     public Long getId() {
         return id;
@@ -27,5 +21,13 @@ public class UserEntity {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Set<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(Set<Item> items) {
+        this.items = items;
     }
 }

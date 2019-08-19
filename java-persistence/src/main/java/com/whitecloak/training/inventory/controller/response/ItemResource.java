@@ -1,10 +1,16 @@
 package com.whitecloak.training.inventory.controller.response;
 
+import com.whitecloak.training.inventory.persistence.entity.CategoryEntity;
+import com.whitecloak.training.inventory.persistence.entity.UserEntity;
+
+
 public class ItemResource {
 
     private long id;
     private String name;
-    private long ownerId;
+    private UserEntity ownerId;
+    private CategoryEntity categoryId;
+    private String status;
 
     public long getId() {
         return id;
@@ -22,11 +28,27 @@ public class ItemResource {
         this.name = name;
     }
 
-    public long getOwnerId() {
+    public UserEntity getOwnerId() {
         return ownerId;
     }
 
-    public void setOwnerId(long ownerId) {
+    public void setOwnerId(UserEntity ownerId) {
         this.ownerId = ownerId;
+    }
+
+    public CategoryEntity getCategoryId() {
+        return categoryId;
+    }
+
+    public void setCategoryId(CategoryEntity categoryId) {
+        this.categoryId = categoryId;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }
