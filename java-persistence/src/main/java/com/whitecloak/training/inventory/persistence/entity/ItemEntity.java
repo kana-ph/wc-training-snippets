@@ -3,6 +3,7 @@ package com.whitecloak.training.inventory.persistence.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "item_entity")
 public class ItemEntity {
 
     @Id
@@ -10,10 +11,18 @@ public class ItemEntity {
     private Long id;
 
     @Column
-    private String name;
+    private String itemName;
 
-    @Column
+    @ManyToOne
+    @JoinColumn
     private UserEntity owner;
+
+    @ManyToOne
+    @JoinColumn
+    private CategoryEntity category;
+
+    public ItemEntity() {
+    }
 
     public Long getId() {
         return id;
@@ -23,12 +32,12 @@ public class ItemEntity {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getItemName() {
+        return itemName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
     }
 
     public UserEntity getOwner() {
@@ -37,5 +46,13 @@ public class ItemEntity {
 
     public void setOwner(UserEntity owner) {
         this.owner = owner;
+    }
+
+    public CategoryEntity getCategory() {
+        return category;
+    }
+
+    public void setCategory(CategoryEntity category) {
+        this.category = category;
     }
 }

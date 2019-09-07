@@ -1,19 +1,9 @@
-package com.whitecloak.training.inventory.persistence.entity;
+package com.whitecloak.training.inventory.model;
 
-import javax.persistence.*;
+public class User {
 
-@Entity
-public class UserEntity {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column
     private String userName;
-
-    public UserEntity() {
-    }
 
     public Long getId() {
         return id;

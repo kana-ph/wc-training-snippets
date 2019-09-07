@@ -1,12 +1,24 @@
-POST http://localhost:8080/api/v1/items
-Content-Type: application/json
-Accept: application/json
+GET http://localhost:8080/api/v1/items/2
 
-{
-  "name": "erasyer"
-}
+<> 2019-08-16T050300.200.json
 
-<> 2019-08-13T025817.200.json
+###
+
+GET http://localhost:8080/api/v1/items/2
+
+<> 2019-08-16T050252.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/2
+
+<> 2019-08-16T035208.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+
+<> 2019-08-16T035157.200.json
 
 ###
 
@@ -15,10 +27,12 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "itemName": "Cellphone",
+  "owner": 1,
+  "category": 1
 }
 
-<> 2019-08-13T025613.200.json
+<> 2019-08-16T035150.200.json
 
 ###
 
@@ -27,8 +41,82 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "itemName": "eraser na may ballpen",
+  "owner": 3,
+  "category": 2
 }
+
+<> 2019-08-16T035137.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Unique"
+}
+
+<> 2019-08-16T035118.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Jem"
+}
+
+<> 2019-08-16T035115.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Jeremuy"
+}
+
+<> 2019-08-16T035108.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T035053.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T035051.200.json
+
+###
+
+GET http://localhost:8080/api/v1/items/1
+
+<> 2019-08-16T034938.200.json
+
+###
+
+GET http://localhostL8080/api/v1/items/1
 
 ###
 
@@ -37,10 +125,462 @@ Content-Type: application/json
 Accept: application/json
 
 {
-  "name": "bolpen"
+  "itemName": "eraser na may ballpen",
+  "category": 1,
+  "owner": 1
 }
 
-<> 2019-08-13T025402.500.json
+<> 2019-08-16T034922.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T034919.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T034917.200.json
+
+###
+
+GET http://localhostL8080/api/v1/items/1
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "category": 1,
+  "owner": 1
+}
+
+<> 2019-08-16T015521.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T015517.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T015515.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "category": 1,
+  "owner": 1
+}
+
+<> 2019-08-16T112353.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T112349.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T112346.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "category": 1,
+  "owner": 1
+}
+
+<> 2019-08-16T100742.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T100553.500.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T100549.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T100546.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T094452.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T094449.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T094446.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T094443.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T091254.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T091251.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T091248.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T085544.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T085541.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T085538.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T085401.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T085357.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T085354.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-16T084038.500.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-16T084035.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-16T084033.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-15T024923.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-15T024920.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-15T024912.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-15T021527.200.json
+
+###
+
+POST http://localhost:8080/api/v1/items
+Content-Type: application/json
+Accept: application/json
+
+{
+  "itemName": "eraser na may ballpen",
+  "categoryId": 1,
+  "ownerId": 1
+}
+
+<> 2019-08-15T113159.200.json
+
+###
+
+POST http://localhost:8080/api/v1/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "userName": "Testing"
+}
+
+<> 2019-08-15T113149.200.json
+
+###
+
+POST http://localhost:8080/api/v1/category
+Content-Type: application/json
+Accept: application/json
+
+{
+  "categoryName": "Equipment"
+}
+
+<> 2019-08-15T113146.200.json
 
 ###
 
